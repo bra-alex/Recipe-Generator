@@ -32,7 +32,9 @@ class RecipesController: ObservableObject{
             
             if res.statusCode == 200{
                 if let decodedData = try? JSONDecoder().decode(Recipe.self, from: data){
-                    recipe = decodedData
+                    DispatchQueue.main.async{
+                        self.recipe = decodedData
+                    }
                 }
             }
         } catch {
