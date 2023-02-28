@@ -89,9 +89,9 @@ struct RecipeDetails: View {
                         .padding(.horizontal)
                 }
             }
-            
+            .padding()            
         }
-        .padding()
+        .padding(.top)
     }
 }
 
