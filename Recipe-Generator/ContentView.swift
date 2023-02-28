@@ -29,6 +29,7 @@ struct ContentView: View {
                     Color.black.opacity(0.2)
                 }
             }
+            .ignoresSafeArea()
             
             GeometryReader { proxy -> AnyView in
                 let height = proxy.frame(in: .global).height
@@ -45,9 +46,14 @@ struct ContentView: View {
                                 .padding(.top)
                         }
                         .frame(maxHeight: .infinity, alignment: .top)
+                        
+                        if rc.recipe != nil{
+                            RecipeDetails(recipe: rc.recipe)
+                        }
                     }
+                        .padding(.bottom, 20)
                         .offset(y: height - 500)
-                        .offset(y: -offset > 0 ? -offset <= (height - 400) ? offset : (height - 400) : 0)
+                        .offset(y: -offset > 0 ? -offset <= (height - 500) ? offset : (height - 500) : 0)
                         .gesture(DragGesture().updating($gestureOffset, body: { value, out, _ in
                             out = value.translation.height
                             
@@ -67,8 +73,9 @@ struct ContentView: View {
                         }))
                 )
             }
+            .ignoresSafeArea(.all, edges: .bottom)
         }
-        .ignoresSafeArea()
+        
         .task {
             await rc.fetchRecipe()
         }

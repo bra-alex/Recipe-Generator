@@ -14,6 +14,7 @@
 		98CA83B929AE8F37005DCB17 /* RecipesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CA83B829AE8F37005DCB17 /* RecipesController.swift */; };
 		98CA83BB29AE93C0005DCB17 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CA83BA29AE93C0005DCB17 /* BlurView.swift */; };
 		98CA83BD29AE974D005DCB17 /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CA83BC29AE974D005DCB17 /* CustomCorner.swift */; };
+		98CA83BF29AEAEEF005DCB17 /* RecipeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CA83BE29AEAEEE005DCB17 /* RecipeDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		98CA83B829AE8F37005DCB17 /* RecipesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesController.swift; sourceTree = "<group>"; };
 		98CA83BA29AE93C0005DCB17 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		98CA83BC29AE974D005DCB17 /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
+		98CA83BE29AEAEEE005DCB17 /* RecipeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				98CA83AA29AE8ED8005DCB17 /* Recipe_GeneratorApp.swift */,
 				98CA83AC29AE8ED8005DCB17 /* ContentView.swift */,
 				98CA83BC29AE974D005DCB17 /* CustomCorner.swift */,
+				98CA83BE29AEAEEE005DCB17 /* RecipeDetails.swift */,
 				98CA83BA29AE93C0005DCB17 /* BlurView.swift */,
 				98CA83B829AE8F37005DCB17 /* RecipesController.swift */,
 				98CA83AE29AE8ED9005DCB17 /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98CA83BF29AEAEEF005DCB17 /* RecipeDetails.swift in Sources */,
 				98CA83AD29AE8ED8005DCB17 /* ContentView.swift in Sources */,
 				98CA83BD29AE974D005DCB17 /* CustomCorner.swift in Sources */,
 				98CA83BB29AE93C0005DCB17 /* BlurView.swift in Sources */,
