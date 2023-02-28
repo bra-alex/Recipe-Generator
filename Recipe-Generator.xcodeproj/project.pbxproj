@@ -11,6 +11,7 @@
 		98CA83AD29AE8ED8005DCB17 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CA83AC29AE8ED8005DCB17 /* ContentView.swift */; };
 		98CA83AF29AE8ED9005DCB17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98CA83AE29AE8ED9005DCB17 /* Assets.xcassets */; };
 		98CA83B229AE8ED9005DCB17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98CA83B129AE8ED9005DCB17 /* Preview Assets.xcassets */; };
+		98CA83B929AE8F37005DCB17 /* RecipesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CA83B829AE8F37005DCB17 /* RecipesController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		98CA83AC29AE8ED8005DCB17 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		98CA83AE29AE8ED9005DCB17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98CA83B129AE8ED9005DCB17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98CA83B829AE8F37005DCB17 /* RecipesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				98CA83AA29AE8ED8005DCB17 /* Recipe_GeneratorApp.swift */,
 				98CA83AC29AE8ED8005DCB17 /* ContentView.swift */,
+				98CA83B829AE8F37005DCB17 /* RecipesController.swift */,
 				98CA83AE29AE8ED9005DCB17 /* Assets.xcassets */,
 				98CA83B029AE8ED9005DCB17 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				98CA83AD29AE8ED8005DCB17 /* ContentView.swift in Sources */,
 				98CA83AB29AE8ED8005DCB17 /* Recipe_GeneratorApp.swift in Sources */,
+				98CA83B929AE8F37005DCB17 /* RecipesController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
